@@ -20,6 +20,7 @@ namespace TesteUnidade
         [InlineData(1, 1, 2)]
         [InlineData(3, 2, 5)]
         [InlineData(4, 2, 6)]
+        [InlineData(3, 1, 4)]
         public void Calculadora_Somar_RetornarValoresSomaCorretas(double v1, 
         double v2, double total) {
 
